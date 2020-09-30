@@ -1,0 +1,299 @@
+/* topbar */
+
+.upper-margin {
+    margin: 10px auto;
+}
+
+.btn-link {
+    color: #3d40c8;
+}
+
+.btn-link:hover {
+    color: #bfbfbf;
+}
+
+.btn {
+    padding: 0 .75rem;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 1.25rem;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #007bff;
+}
+
+.fa-search:before {
+    margin-left: 10rem;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+
+/* carousel */
+
+.slider {
+    position: relative;
+    z-index: 1;
+}
+
+.slider:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.slider .carousel-control-prev,
+.carousel-control-next {
+    z-index: 2;
+}
+
+.carousel-caption {
+    bottom: 80px;
+    line-height: 1.5;
+}
+
+.carousel-indicators li {
+    bottom: 50px;
+}
+
+
+/* features */
+
+.features p {
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .features p {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+.features i {
+    color: white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+
+/* our team */
+
+.overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.overlay h4 {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.overlay p {
+    font-size: .8rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.overlay .button_s {
+    display: flex;
+}
+
+.slide1 .overlay {
+    opacity: 1;
+    background: #007bff;
+    width: 100%;
+}
+
+.slide1 .overlay {
+    transform: translateX(-100%);
+}
+
+.slide1:hover .overlay {
+    transform: translateX(0);
+}
+
+.slide1:hover img {
+    transform: translateX(100%);
+}
+
+.slide1 .overlay,
+.slide1 img {
+    transition: transform .7s ease-in-out;
+}
+
+
+/* our services */
+
+.services i {
+    color: white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+.services {
+    background-color: #e9ecef;
+}
+
+
+/* pricing table */
+
+.pricing p {
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .pricing p {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+.pricing .card-body {
+    padding: 1.25rem 0;
+}
+
+.pricing .list-group-item {
+    border: none;
+}
+
+.pricing .shadow {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* statistics */
+
+.statistics {
+    background-image: url('../img/statistics.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.statistics:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.statistics .container {
+    position: relative;
+    z-index: 2;
+}
+
+.statistics i {
+    position: relative;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    top: 1.5rem;
+}
+
+.statistics h3 {
+    color: #fff;
+}
+
+.statistics p {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* frequently */
+
+.frequently {
+    background-color: #e9ecef;
+}
+
+.frequently .btn-link {
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+
+/* latest post */
+
+.post p {
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .post p {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+
+/* contact us */
+
+.contact {
+    padding: 100px 0;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #e9ecef;
+}
